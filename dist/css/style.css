@@ -1,0 +1,413 @@
+body {
+    background-color: #eee;
+}
+
+.bg-light {
+    background-color: rgb(165, 54, 46) !important;
+}
+
+.navbar .container form .search {
+    width: 100%;
+    position: relative;
+}
+
+form {
+    position: relative;
+}
+
+.navbar input.form-control {
+    width: 300px !important;
+}
+
+.input-group-append {
+    background-color: rgb(80, 180, 142);
+    border: none;
+    top: 0;
+    right: -15px;
+    position: absolute;
+}
+
+.carousel-inner img {
+    height: 600px !important;
+}
+
+#respon a {
+    color: rgba(223, 223, 223, 0.89);
+}
+
+.owl-theme {
+    margin-left: 5px;
+}
+
+.buku_populer .btn-info,
+.buku_islami .btn-info,
+.buku_anak .btn-info {
+    width: 100%;
+}
+
+.modal-body input.login {
+    width: 100% !important;
+}
+
+/* buku populer */
+.buku_populer {
+    position: relative;
+}
+
+.buku_populer .banyak {
+    right: 180px;
+    top: -40px;
+    background: linear-gradient(to right, rgb(106, 187, 187), rgb(42, 204, 28), rgb(161, 161, 129));
+    padding: 20px;
+    position: absolute;
+    height: 20px;
+    line-height: 10px;
+    border-top-right-radius: 30px;
+    color: #eee;
+}
+
+.buku_populer img.data:hover {
+    transform: scale(1.2) translateY(20px);
+    position: relative;
+    z-index: 9999;
+    cursor: pointer;
+    border-bottom: 5px solid rgb(169, 201, 94) !important;
+}
+
+.buku_populer .container {
+    box-sizing: border-box;
+}
+
+.buku_populer .data-buku {
+    margin-top: 100px;
+    border: 2px solid #999;
+    padding: 10px;
+    background-color: azure;
+}
+
+.buku_populer h1 {
+    font-size: 30px;
+    background-color: rgb(169, 201, 94);
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: rgb(71, 68, 68);
+    text-align: center;
+}
+
+.buku_populer .item p {
+    margin-top: 50px;
+}
+
+.buku_populer .item h6 {
+    position: absolute;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.buku_populer img.data {
+    width: 150px;
+    height: 200px;
+    border: 2px solid #999;
+    transition: 1s;
+}
+
+.buku_populer img.banner {
+    height: 300px;
+    width: 100%;
+}
+
+/* akhir bku popluer */
+
+/* buku islami */
+.buku_islami {
+    position: relative;
+}
+
+.buku_islami img.data:hover {
+    transform: scale(1.2) translateY(20px);
+    position: relative;
+    z-index: 9999;
+    border-bottom: 5px solid rgba(206, 105, 65, 0.979) !important;
+    cursor: pointer;
+}
+
+.buku_islami .banyak {
+    right: 180px;
+    top: -40px;
+    background: linear-gradient(to right, rgb(106, 187, 187), rgb(42, 204, 28), rgb(161, 161, 129));
+    padding: 20px;
+    position: absolute;
+    height: 20px;
+    line-height: 10px;
+    border-top-right-radius: 30px;
+    color: #eee;
+}
+
+.buku_islami .container {
+    box-sizing: border-box;
+}
+
+.buku_islami .data-buku {
+    margin-top: 55px;
+    border: 2px solid #999;
+    padding: 10px;
+    background-color: azure;
+}
+
+.buku_islami h1 {
+    font-size: 30px;
+    background-color: rgba(206, 105, 65, 0.979);
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: rgb(71, 68, 68);
+    text-align: center;
+}
+
+.buku_islami .item p {
+    margin-top: 50px;
+}
+
+.buku_islami .item h6 {
+    position: absolute;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.buku_islami img.data {
+    width: 150px;
+    height: 200px;
+    border: 2px solid #999;
+    transition: 1s;
+}
+
+.buku_islami img.banner {
+    height: 300px;
+    width: 100%;
+}
+
+/* akhir buku islami */
+
+/* buku anak */
+.buku_anak {
+    position: relative;
+}
+
+.buku_anak img.data:hover {
+    transform: scale(1.2) translateY(20px);
+    position: relative;
+    z-index: 9999;
+    border-bottom: 5px solid rgba(147, 233, 255, 0.973) !important;
+    cursor: pointer;
+}
+
+.buku_anak .banyak {
+    right: 180px;
+    top: -40px;
+    background: linear-gradient(to right, rgb(106, 187, 187), rgb(42, 204, 28), rgb(161, 161, 129));
+    padding: 20px;
+    position: absolute;
+    height: 20px;
+    line-height: 10px;
+    border-top-right-radius: 30px;
+    color: #eee;
+}
+
+
+.buku_anak .container {
+    box-sizing: border-box;
+}
+
+.buku_anak .data-buku {
+    margin-top: 55px;
+    border: 2px solid #999;
+    padding: 10px;
+    background-color: azure;
+}
+
+.buku_anak h1 {
+    font-size: 30px;
+    background-color: rgba(147, 233, 255, 0.973);
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: rgb(71, 68, 68);
+    text-align: center;
+}
+
+.buku_anak .item p {
+    margin-top: 50px;
+}
+
+.buku_anak .item h6 {
+    position: absolute;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.buku_anak img.data {
+    width: 150px;
+    height: 200px;
+    border: 2px solid #999;
+    transition: 1s;
+}
+
+.buku_anak img.banner {
+    height: 300px;
+    width: 100%;
+}
+
+/* akhir buku anak */
+
+/* footer */
+.follow {
+    margin-top: 20px;
+    background-color: rgb(83, 75, 75);
+    padding: 20px;
+    color: #eee;
+    position: relative;
+}
+
+.follow h4 {
+    font-size: 20px;
+}
+
+.follow button {
+    margin-top: -38px !important;
+}
+
+.follow ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.follow h2 {
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.follow ul li {
+    margin-right: 10%;
+    font-size: 50px;
+}
+
+footer {
+    padding: 15px;
+    background-color: rgb(165, 54, 46) !important;
+    color: #eee;
+}
+
+footer h5 {
+    font-size: 14px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul.bank {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+footer ul.bank img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+footer img {
+    width: 100px;
+    height: 30px;
+}
+
+hr {
+    border: 2px dotted #999;
+    background-color: blanchedalmond;
+}
+
+
+@media (max-width:992px) {
+    .navbar input.form-control {
+        width: 100% !important;
+    }
+}
+
+/* akhir */
+
+@media (max-width:768px) {
+    .navbar input.form-control {
+        width: 100% !important;
+    }
+
+    .buku_populer .banyak {
+        right: 15px;
+        top: -40px;
+        background: linear-gradient(to right, rgb(106, 187, 187), rgb(42, 204, 28), rgb(161, 161, 129));
+        padding: 20px;
+        position: absolute;
+        z-index: -1;
+        height: 20px;
+        line-height: 10px;
+        border-top-right-radius: 30px;
+        color: #eee;
+    }
+
+    .buku_islami .banyak {
+        right: 15px;
+        top: -40px;
+        background: linear-gradient(to right, rgb(106, 187, 187), rgb(42, 204, 28), rgb(161, 161, 129));
+        padding: 20px;
+        position: absolute;
+        z-index: -1;
+        height: 20px;
+        line-height: 10px;
+        border-top-right-radius: 30px;
+        color: #eee;
+    }
+
+    .buku_anak .banyak {
+        right: 15px;
+        top: -40px;
+        background: linear-gradient(to right, rgb(106, 187, 187), rgb(42, 204, 28), rgb(161, 161, 129));
+        padding: 20px;
+        position: absolute;
+        z-index: -1;
+        height: 20px;
+        line-height: 10px;
+        border-top-right-radius: 30px;
+        color: #eee;
+    }
+
+
+    .carousel-inner img {
+        height: 250px !important;
+    }
+
+    .buku_populer .banner,
+    .buku_anak .banner,
+    .buku_islami .banner {
+        display: none;
+    }
+
+    .buku_populer img.data,
+    .buku_islami img.data,
+    .buku_anak img.data {
+        width: 300px;
+        height: 300px;
+        margin: 20px auto;
+    }
+
+    .buku_populer h6,
+    .buku_islami h6,
+    .buku_anak h6 {
+        font-size: 20px !important;
+
+    }
+
+    .follow h2,
+    h4 {
+        margin-top: 30px;
+    }
+}

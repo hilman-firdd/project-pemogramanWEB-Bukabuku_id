@@ -1,0 +1,207 @@
+body {
+    background-color: #eee;
+}
+
+.bg-light {
+    background-color: rgb(165, 54, 46) !important;
+}
+
+.navbar .container form .search {
+    width: 100%;
+    position: relative;
+}
+
+form {
+    position: relative;
+}
+
+.navbar input.form-control {
+    width: 300px !important;
+}
+
+.input-group-append {
+    background-color: rgb(80, 180, 142);
+    border: none;
+    top: 0;
+    right: -15px;
+    position: absolute;
+}
+
+#respon a {
+    color: rgba(223, 223, 223, 0.89);
+}
+
+.modal-body input.login {
+    width: 100% !important;
+}
+
+.keranjang {
+    position: relative;
+}
+
+.keranjang .detail {
+    width: 30%;
+    right: 100px;
+    position: absolute;
+}
+
+.keranjang img {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+.keranjang form {
+    float: left;
+    width: 100%;
+    border: 5px solid rgb(77, 73, 73);
+    padding: 10px;
+}
+
+.keranjang button {
+    margin-top: 20px;
+    width: 100%;
+
+}
+
+hr.produk {
+    border-top: 2px solid rgb(16, 45, 56) !important;
+    width: 60%;
+    right: 20%;
+    position: relative;
+}
+
+.keranjang ul li {
+    list-style-type: none;
+}
+
+
+/* footer */
+.follow {
+    margin-top: 50px;
+    background-color: rgb(83, 75, 75);
+    padding: 20px;
+    color: #eee;
+    position: relative;
+}
+
+.follow h4 {
+    font-size: 20px;
+}
+
+.follow button {
+    margin-top: -38px !important;
+}
+
+.follow ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.follow h2 {
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.follow ul li {
+    margin-right: 10%;
+    font-size: 50px;
+}
+
+footer {
+    padding: 15px;
+    background-color: rgb(165, 54, 46) !important;
+    color: #eee;
+}
+
+footer h5 {
+    font-size: 14px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul.bank {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+footer ul.bank img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+footer img {
+    width: 100px;
+    height: 30px;
+}
+
+hr.dotted {
+    border: 2px dotted #999;
+    background-color: blanchedalmond;
+}
+
+.tawaran {
+    display: flex !important;
+}
+
+
+/* query */
+@media (max-width:992px) {
+    .navbar input.form-control {
+        width: 100% !important;
+    }
+}
+
+/* akhir */
+
+
+@media (max-width:860px) {
+    .keranjang .hapus {
+        width: 50px;
+
+    }
+
+    li:nth-child(7) {
+        margin-top: 10px !important;
+    }
+
+    .keranjang .total {
+        width: 150px !important;
+
+    }
+
+    .keranjang .detail {
+        border-top: 3px solid #999;
+        padding: 20px;
+        width: 80%;
+        position: static;
+        margin: auto;
+    }
+
+    .keranjang form {
+        float: left;
+        width: 100%;
+        border: 5px solid rgb(77, 73, 73);
+        padding: 10px;
+        margin-top: 30px;
+    }
+
+    .navbar input.form-control {
+        width: 100% !important;
+    }
+
+    .produk img {
+        margin-left: 20%;
+    }
+
+    .tawaran img.data {
+        width: 110px;
+        height: 150px;
+        margin: auto;
+        border: 2px solid #999;
+        transition: 1s;
+    }
+}

@@ -1,0 +1,18 @@
+@media (max-width:768px) {
+    .breadcrumb-item+.breadcrumb-item::before {
+        display: none;
+    }
+
+    .breadcrumb {
+        display: flex;
+    }
+
+    .breadcrumb-item {
+        margin-bottom: 20px;
+    }
+
+    .breadcrumb-item a {
+        width: 100%;
+        background-color: darkblue;
+    }
+}
