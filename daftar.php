@@ -2,14 +2,12 @@
 session_start();
 require 'function.php';
 
-$data_pelanggan = mysqli_query($conn,"SELECT * FROM pelanggan");
-$row = mysqli_fetch_assoc($data_pelanggan);
+
 
 if ( isset($_POST['submit'])) {
    if( daftar($_POST) > 0 ){
-    $_SESSION['pelanggan'] = $row;
     echo "<script> alert('data tersimpan'); </script>";
-    echo "<script> location = 'index.php'; </script>";
+    echo "<script> location = 'login.php'; </script>";
    }else{
     echo "<script> alert('data gagal disimpan'); </script>";
    }
