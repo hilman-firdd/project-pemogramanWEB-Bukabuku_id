@@ -3,12 +3,15 @@ require 'function.php';
 session_start();
 
 
-$pelanggan = $_SESSION['pelanggan']['id_pelanggan'];
-$data_pembeli = mysqli_query($conn,"SELECT * FROM pembelian");
-$row = mysqli_fetch_assoc($data_pembeli);
-if( $pelanggan != $row['id_pelanggan']) {
-    $catatan = true;
-}
+// $data_pembeli = mysqli_query($conn,"SELECT * FROM pembelian");
+// $row = mysqli_fetch_assoc($data_pembeli);
+// if( $pelanggan == $row['id_pelanggan']) {
+//     $catatan = true;
+// }
+
+$id_pelanggan = $_SESSION['pelanggan']['id_pelanggan'];
+$query    = "SELECT * FROM pembelian WHERE id_pelanggan = '$id_pelanggan'";
+$datadata =  tampil_data($query);
 
 
 $query3 = "SELECT * FROM pembelian";
@@ -164,7 +167,7 @@ if( isset($_POST['submit']) ) {
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                <?php if ( isset($catatan) ) { ?>
+                <?php if ( empty($datadata[0]) ) { ?>
                     <h1> tidak ada data <i class="fas fa-exclamation-triangle"></i> </h1>
                     <p class="text-center">lakukan transaksi terlebih dahulu.</p>
                 <?php }else{ ?>
@@ -183,9 +186,7 @@ if( isset($_POST['submit']) ) {
 
                         <?php 
                         $nomor = 1; 
-                           $id_pelanggan = $_SESSION['pelanggan']['id_pelanggan'];
-                           $query    = "SELECT * FROM pembelian WHERE id_pelanggan = '$id_pelanggan'";
-                           $datadata =  tampil_data($query);
+                           
                         ?>
                         <?php foreach ($datadata as $data) : ?>
                         <tr>

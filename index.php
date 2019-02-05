@@ -96,9 +96,9 @@ $data_buku = tampil_data($query);
                     <li class="nav-item">
                         <a class="nav-link" href="logout.php">Logout</a>
                     </li>
-                    <!-- <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link" href="riwayat.php">Riwayat Belanja</a>
-                    </li> -->
+                    </li>
                     <?php else: ?>
                     <li class="nav-item">
                         <a class="nav-link" href="daftar.php">Daftar</a>
